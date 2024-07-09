@@ -45,6 +45,10 @@
         line-height: 16px;
         font-size: 14px;
     }
+
+    .topheading{
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 1024px) { 

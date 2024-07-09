@@ -4,7 +4,7 @@
 
 .projects_text{
     display: flex;
-    gap: 160px;
+    gap: 120px;
 }
 
 @media (max-width : 768px) {

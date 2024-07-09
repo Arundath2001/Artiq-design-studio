@@ -1,18 +1,18 @@
 .images{
     display: flex;
-    gap: 50px;
+    gap: 80px;
     align-items: flex-end;
     margin-top: 100px;
 }
 
 .images_1{
-    width: 200px;
+    width: 250px;
     height: 200px;
 }
 
 .images_2{
-    width: 550px;
-    height: 500px;
+    width: 450px;
+    height: 400px;
     object-fit: cover;
 }
 

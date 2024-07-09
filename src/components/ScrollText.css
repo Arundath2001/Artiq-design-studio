@@ -1,5 +1,5 @@
 h4{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
     font-family: "Aeonik Regular";
     color: #FFFFFF;
@@ -32,5 +32,9 @@ h4{
 @media (max-width : 768px) {
     h4{
         font-size: 30px;
+    }
+
+    .scrolltext{
+        width: calc(100% + 90px);
     }
 }

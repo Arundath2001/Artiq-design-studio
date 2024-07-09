@@ -7,5 +7,7 @@
 @media (max-width : 768px) {
     .elipse{
         gap: 15px;
+        justify-content: center;
+        align-items: center;
     }
 }
