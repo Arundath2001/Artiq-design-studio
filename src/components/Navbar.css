@@ -38,16 +38,11 @@
 
 @media (max-width : 768px) {
     .navimg{
-        width: 70px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
     }
 
-    .navpara{
-        font-size: 15px;
-    }
-
-    .navbar_line{
-        width: 20px;
-        border: 1px solid #000000;
+    .navbar{
+        padding: 0px 20px;
     }
 }

@@ -7,18 +7,30 @@
 
 .service{
     display: flex;
+    flex-direction: column;
     margin-top: 80px;
-    justify-content: space-between;
 }
 
 .service_top{
     display: flex;
-    flex-direction: column;
-    gap: 80px;
+    justify-content: space-between;
 }
 
 .service_headings{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    position: relative;
+    top: -200px;
+}
+
+@media (max-width : 768px) {
+    .serviceimg{
+        width: 150px;
+        height: 150px;
+        top: -30px;
+    }
+    .service_headings{
+        top: -80px;
+    }
 }

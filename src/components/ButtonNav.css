@@ -37,12 +37,21 @@
 
 @media (max-width : 768px) {
 
-    .buttonnav_para{
+    .buttonnav_para.black{
         font-size: 15px;
     }
 
-    .buttonnav_line{
+    .buttonnav_line.black{
         width: 20px;
         border: 1px solid #000000;
+    }
+
+    .buttonnav_para.white{
+        font-size: 15px;
+    }
+
+    .buttonnav_line.white{
+        width: 20px;
+        border: 1px solid #FFFFFF;
     }
 }

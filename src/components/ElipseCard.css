@@ -21,11 +21,6 @@
     background-color: #C1FF72;
 }
 
-
-#elipsetop{
-    margin-top: 150px;
-}
-
 .elipsecard:nth-child(1) {
     transform: translateY(0);
 }
@@ -47,12 +42,29 @@
         width: 65px;
     }
 
+    .elipsecard{
+        margin-top: 80px;
+    }
+
     .elipseimage{
         width: 65px;
         height: 65px;
     }
 
-    #elipsetop{
-        margin-top: 70px;
+    .elipsecard:nth-child(1) {
+        transform: translateY(0);
     }
+    
+    .elipsecard:nth-child(2) {
+        transform: translateY(-40px);
+    }
+    
+    .elipsecard:nth-child(3) {
+        transform: translateY(-80px);
+    }
+    
+    .elipsecard:nth-child(4) {
+        transform: translateY(-120px);
+    }
+
 }

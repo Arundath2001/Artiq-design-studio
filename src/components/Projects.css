@@ -6,3 +6,9 @@
     display: flex;
     gap: 160px;
 }
+
+@media (max-width : 768px) {
+    .projects_text{
+        gap: 30px;
+    }
+}

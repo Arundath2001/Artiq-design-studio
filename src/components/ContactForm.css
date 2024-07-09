@@ -79,6 +79,11 @@ form{
       flex-direction: column;
       flex: 1;
     }
+
+    .contactform{
+        margin: 0px;
+        margin-top: 50px
+    }
   
     .contactform button{
       border-radius: 16px;

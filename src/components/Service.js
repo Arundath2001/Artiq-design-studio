@@ -10,6 +10,11 @@ function Service(){
                     Services
                 </div>
 
+                <img className="serviceimg" src={serviceimg} alt="service" />   
+
+            </div>
+
+
                 <div className="service_headings">
                     <div className="heading">
                     GRAPHIC DESIGN
@@ -25,9 +30,6 @@ function Service(){
                     </div>
                 </div>
 
-            </div>
-
-            <img className="serviceimg" src={serviceimg} alt="service" />   
         </div>
     );
 }
