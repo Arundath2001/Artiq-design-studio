@@ -1,0 +1,24 @@
+.images{
+    display: flex;
+    gap: 50px;
+    align-items: flex-end;
+    margin-top: 100px;
+}
+
+.images_1{
+    width: 200px;
+    height: 200px;
+}
+
+.images_2{
+    width: 550px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.images_3{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -200px;
+}

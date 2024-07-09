@@ -1,0 +1,17 @@
+.workcard{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.workcard_img{
+    width: 480px;
+    height: 480px;
+}
+
+@media (max-width : 768px) {
+    .workcard_img{
+        width: 140px;
+        height: 160px;
+    }
+}

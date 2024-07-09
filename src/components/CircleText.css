@@ -1,0 +1,13 @@
+.circlesvg{
+    fill: currentColor;
+    height: auto;
+    max-width: 66vmin;
+    transform-origin: center;
+    width: 20%;
+}
+
+.circletext{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}

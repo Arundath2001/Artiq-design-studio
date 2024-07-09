@@ -1,0 +1,86 @@
+.contactform{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 100px;
+}
+
+.contactform button{
+    padding: 15px 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    cursor: pointer;
+}
+
+.contactform_btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactform input {
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #FFFFFF;    
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.contactform_input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 60px;
+}
+
+.contactform_top1 , .contactform_top2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.contactform label{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+@media (max-width : 768px) {
+    .contactform_top1, 
+    .contactform_top2{
+      flex-direction: column;
+    }
+  
+    .contactform_btn{
+      justify-content: center;
+      flex-direction: column;
+      flex: 1;
+    }
+  
+    .contactform button{
+      border-radius: 16px;
+    }
+}

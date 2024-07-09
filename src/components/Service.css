@@ -1,0 +1,24 @@
+.serviceimg{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: -60px;
+}
+
+.service{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.service_top{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.service_headings{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

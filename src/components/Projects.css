@@ -1,0 +1,8 @@
+.projects{
+    margin-top: 100px;
+}
+
+.projects_text{
+    display: flex;
+    gap: 160px;
+}

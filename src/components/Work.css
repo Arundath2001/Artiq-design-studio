@@ -1,0 +1,23 @@
+.work{
+    margin-top: 40px;
+}
+
+.heading.work{
+    margin-left: 300px;
+}
+
+.work_images{
+    margin-left: auto;
+    width: fit-content;
+    margin-top: 80px;
+}
+
+@media (max-width : 768px) {
+    .heading.work{
+        margin-left: 0px;
+    }
+
+    .work_images{
+        margin-top: 40px;
+    }
+}

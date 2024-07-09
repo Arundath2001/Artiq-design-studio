@@ -1,0 +1,52 @@
+.topheading{
+    margin-top: 145px;
+}
+
+.heading{
+    font-size: 66px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.paragraph{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #FFFFFFBF;
+
+}
+
+.topheading.left{
+    text-align: left;
+}
+
+.topheading.right{
+    text-align: left;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.heading span{
+    display: block;
+}
+
+.paragraph span{
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .heading{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .paragraph{
+        line-height: 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) { 
+
+}

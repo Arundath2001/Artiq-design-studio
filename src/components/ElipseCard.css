@@ -1,0 +1,58 @@
+.elipsecard{
+    margin-top: 200px;
+}
+
+.elipseimage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.elipse_images{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 150px;
+}
+
+.elipse_images{
+    background-color: #C1FF72;
+}
+
+
+#elipsetop{
+    margin-top: 150px;
+}
+
+.elipsecard:nth-child(1) {
+    transform: translateY(0);
+}
+
+.elipsecard:nth-child(2) {
+    transform: translateY(-160px);
+}
+
+.elipsecard:nth-child(3) {
+    transform: translateY(-260px);
+}
+
+.elipsecard:nth-child(4) {
+    transform: translateY(-360px);
+}
+
+@media (max-width: 768px) {
+    .elipse_images{
+        width: 65px;
+    }
+
+    .elipseimage{
+        width: 65px;
+        height: 65px;
+    }
+
+    #elipsetop{
+        margin-top: 70px;
+    }
+}

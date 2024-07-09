@@ -1,0 +1,35 @@
+.footertext_para.bold{
+    font-family: "Aeonik Regular";
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    
+}
+
+.footertext_para{
+    font-family: "Aeonik Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;    
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.footertext.black a{
+    color: #000000;
+}
+
+.footertext.row{
+    display: flex;
+    gap: 20px;
+}
+
+.footertext.black p{
+    color: #000000;
+}
+
+.footertext a{
+    text-decoration: none;
+    display: block;
+}

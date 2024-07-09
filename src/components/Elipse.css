@@ -1,0 +1,11 @@
+.elipse{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+@media (max-width : 768px) {
+    .elipse{
+        gap: 15px;
+    }
+}
