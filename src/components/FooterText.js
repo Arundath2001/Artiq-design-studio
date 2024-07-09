@@ -6,7 +6,7 @@ function FooterText(props){
         <div className={`footertext ${props.color} ${props.row}`}>
             
             {props.href1 ? (
-                <a target="_blank" href={props.href1} className={`footertext_para ${props.bold}`}>{props.text1}</a>
+                <a target="_blank" rel="noreferrer" href={props.href1} className={`footertext_para ${props.bold}`}>{props.text1}</a>
             ) : (
                 <p className={`footertext_para ${props.bold}`}>{props.text1}</p>
             )
@@ -17,7 +17,7 @@ function FooterText(props){
                 <img src={props.img} alt="arrow" />
             ) : (
                 props.href2 ? (
-                    <a target="_blank" href={props.href2} className="footertext_para">{props.text2}</a>
+                    <a target="_blank" rel="noreferrer" href={props.href2} className="footertext_para">{props.text2}</a>
                 ) : (
                     <p className="footertext_para">{props.text2}</p>
                 )
