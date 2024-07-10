@@ -42,7 +42,7 @@ function App() {
       <Navbar />
       <TopHeading align="left" heading={leftHeading} paragraph={leftPara} />
       <Elipse />
-      <TopHeading align="right" heading={rightHeading} paragraph={rightPara} />
+      <TopHeading margin="alignment" align="right" heading={rightHeading} paragraph={rightPara} />
       <Work />
       <ScrollText text="Inspiration * Technology * Innovation * Design * Awards * Artist" />
       <CircleText />

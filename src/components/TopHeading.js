@@ -3,7 +3,7 @@ import './TopHeading.css';
 
 function TopHeading(props){
     return(
-        <div id="home" className={`topheading ${props.align}`}>
+        <div id="home" className={`topheading ${props.align} ${props.margin}`}>
             <div className="heading">
                 {
                     props.heading.map((line,index)=>(

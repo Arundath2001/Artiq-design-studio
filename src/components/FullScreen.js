@@ -26,7 +26,7 @@ function FullScreen(props) {
 
     const handleScroll = (id) => {
         const element = document.getElementById(id);
-        const offset = -50; // Adjust this value to set the desired offset
+        const offset = -80; 
         const bodyRect = document.body.getBoundingClientRect().top;
         const elementRect = element.getBoundingClientRect().top;
         const elementPosition = elementRect - bodyRect;
