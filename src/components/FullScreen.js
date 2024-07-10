@@ -4,6 +4,9 @@ import logo from "../assets/Logo.png";
 import ButtonNav from "./ButtonNav";
 import FooterText from "./FooterText";
 import arrowblack from "../assets/arrowblack.png";
+import whatsapp from "../assets/whatsapp.png";
+import instagram from "../assets/instagram.png";
+import Icons from "./Icons";
 
 function FullScreen(props) {
     const [closing, setClosing] = useState(false);
@@ -47,10 +50,27 @@ function FullScreen(props) {
         { row: "row", text1: "Instagram", text2: "Whatsapp", href1: "https://www.instagram.com/artiq__designs?igsh=ZDY3dDFkbnMxOHBy", href2: "https://wa.me/message/M64ZUFCUWCQNI1" },
     ];
 
+    const details3 = [
+        { text1: "KAKKAD, KANNUR", text2: "KERALA" },
+        { text1: "+91-7356950499", text2: "contactartiqdesign@gmail.com", href1: "tel:7356950499", href2: "mailto:contactartiqdesign@gmail.com" },
+    ];
+
     return (
         <div className={`fullscreen ${closing ? 'slide-up' : 'slide-down'}`}>
             <div className="fullscreen_left">
-                <img src={logo} alt="logo" />
+                <img className="fullscreen_img" src={logo} alt="logo" />
+
+            <div className="fullscreen_mobile">
+                <div className="fullscreen_details">
+                        {details3.map((detail, index) => (
+                            <FooterText key={index} color="white" text1={detail.text1} text2={detail.text2} href1={detail.href1} href2={detail.href2} />
+                        ))}
+                </div>
+
+                <div className="fullscreen_icon">
+                    <Icons img1={whatsapp} img2={instagram} href1="tel:7356950499" href2="mailto:contactartiqdesign@gmail.com" />
+                </div>
+            </div>                
             </div>
 
             <div className="fullscreen_right">
