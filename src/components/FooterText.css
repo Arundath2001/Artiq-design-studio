@@ -46,7 +46,7 @@
         width: 50%;
     }
 
-    .footertext_para.view{
+    .footertext.view{
         display: none;
     }
 }
