@@ -108,15 +108,17 @@
 @media (max-width : 768px) {
     .fullscreen{
         flex-direction: column-reverse;
+        border: 10px solid #000000;
+        border-right: 100px solid red;
     }
 
     .fullscreen_left{
         width: 100%;
-        height: 50%;
+        height: 20%;
     }
 
     .fullscreen_left img{
-        height: 70%;
+        display: none;
     }
 
     .fullscreen_links{
@@ -141,5 +143,9 @@
 
     .fullscreen_btn{
         margin: 0px;
+    }
+
+    .links img{
+        width: 30px;
     }
 }

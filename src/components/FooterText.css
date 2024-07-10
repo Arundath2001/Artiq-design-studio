@@ -41,4 +41,12 @@
     .footertext_para.bold{
         font-size: 13px;
     }
+
+    .footer_img{
+        width: 50%;
+    }
+
+    .footertext_para.view{
+        display: none;
+    }
 }

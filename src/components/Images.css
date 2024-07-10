@@ -26,6 +26,7 @@
     .images{
         gap: 25px;
         margin-top: 50px;
+        justify-content: center;
     }
 
     .images_1{
