@@ -31,3 +31,14 @@
     text-decoration: none;
     display: block;
 }
+
+@media (max-width : 768px) {
+    .footertext_para{
+        font-size: 12px;
+        line-height: 10px;    
+    }
+
+    .footertext_para.bold{
+        font-size: 13px;
+    }
+}

@@ -10,5 +10,10 @@
 @media (max-width : 768px) {
     .projects_text{
         gap: 30px;
+        justify-content: center;
+    }
+
+    .projects{
+        margin-top: 10px;
     }
 }
