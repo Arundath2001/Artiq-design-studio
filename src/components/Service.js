@@ -17,16 +17,16 @@ function Service(){
 
                 <div className="service_headings">
                     <div className="heading">
-                    GRAPHIC DESIGN
+                        LOGO DESIGN
                     </div>
                     <div className="heading">
-                    WEB DESIGN & DEVELOPMENT            
+                        WEB DESIGN & DEVELOPMENT
                     </div>
                     <div className="heading">
-                    DIGITAL MARKETING            
+                        SOCIAL MEDIA DESIGNS
                     </div>
                     <div className="heading">
-                    CONTENT CREATION            
+                        PACKAGING DESIGNS           
                     </div>
                 </div>
 
