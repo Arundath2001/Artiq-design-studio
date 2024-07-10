@@ -4,7 +4,7 @@ import serviceimg from "../assets/Serviceimg.png";
 
 function Service(){
     return(
-        <div className="service">
+        <div id="service" className="service">
             <div className="service_top">
                 <div className="heading">
                     Services

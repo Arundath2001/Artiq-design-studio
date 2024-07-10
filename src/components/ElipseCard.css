@@ -40,6 +40,7 @@
 @media (max-width: 768px) {
     .elipse_images{
         width: 65px;
+        gap: 5px;
     }
 
     .elipsecard{

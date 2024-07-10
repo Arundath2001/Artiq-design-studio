@@ -17,7 +17,7 @@ function Work(){
     ];
 
     return(
-        <div className="work">
+        <div id="work" className="work">
             <div className="heading work">
                 Our Works
             </div>

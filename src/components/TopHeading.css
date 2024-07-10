@@ -5,14 +5,12 @@
 .heading{
     font-size: 66px;
     font-weight: 400;
-    line-height: 80px;
     color: #FFFFFF;
 }
 
 .paragraph{
     font-size: 28px;
     font-weight: 400;
-    line-height: 35px;
     color: #FFFFFFBF;
 
 }
@@ -38,11 +36,9 @@
 @media (max-width: 768px) {
     .heading{
         font-size: 20px;
-        line-height: 30px;
     }
 
     .paragraph{
-        line-height: 16px;
         font-size: 14px;
     }
 

@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url("../assets/background.jpg"); */
+    background-image: url("../assets/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@
     font-size: 55px;
     text-decoration: none;
     color: #00000099;
-    
+    cursor: pointer;
 }
 
 .fullscreen_details{
@@ -96,10 +96,18 @@
     color: #000000;
 }
 
+.links img{
+    display: none;
+    margin-left: 25px;
+}
+
+.links:hover img{
+    display: inline-flex;
+}
+
 @media (max-width : 768px) {
     .fullscreen{
         flex-direction: column-reverse;
-        background-image: url("../assets/background.jpg");
     }
 
     .fullscreen_left{
