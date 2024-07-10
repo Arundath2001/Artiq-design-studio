@@ -112,6 +112,10 @@
     align-items: center;
 }
 
+.fullscreen_logo{
+    display: none;
+}
+
 @media (max-width : 768px) {
     .fullscreen{
         flex-direction: column-reverse;
@@ -159,15 +163,21 @@
         width: 100%;
         box-sizing: border-box;
         margin: 0px;
-        padding: 20px;
+        padding: 0px 20px;
         height: 80%;
     }
 
     .fullscreen_btn{
         margin: 0px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .links img{
         width: 30px;
+    }
+
+    .fullscreen_logo{
+        display: block;
     }
 }

@@ -7,6 +7,7 @@ import arrowblack from "../assets/arrowblack.png";
 import whatsapp from "../assets/whatsapp.png";
 import instagram from "../assets/instagram.png";
 import Icons from "./Icons";
+import blacklogo from "../assets/logoblack.png";
 
 function FullScreen(props) {
     const [closing, setClosing] = useState(false);
@@ -75,6 +76,7 @@ function FullScreen(props) {
 
             <div className="fullscreen_right">
                 <div className="fullscreen_btn">
+                    <img className="fullscreen_logo" src={blacklogo} alt="logo" />
                     <ButtonNav text="Close" handle={handleClose} color="black" />
                 </div>
 
