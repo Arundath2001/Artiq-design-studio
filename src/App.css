@@ -2,6 +2,8 @@
     margin: 0px 80px;
 }
 
+
+
 @media (max-width : 768px) {
     .App{
         margin: 0px;

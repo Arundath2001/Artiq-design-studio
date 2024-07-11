@@ -193,6 +193,7 @@
         box-sizing: border-box;
         padding: 20px;
         display: block;
+        height: 20%;
     }
 
     .fullscreen_img{
@@ -212,10 +213,11 @@
 
     .fullscreen_mobile{
         display: flex;
+        margin-top: 5%;
     }
 
     .links{
-        font-size: 80px;
+        font-size: 65px;
         display: flex;
         align-items: center;
     }
