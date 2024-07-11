@@ -21,3 +21,17 @@
         margin-top: 50px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .heading.work{
+        margin-left: 0px;
+    }
+
+    .work_images{
+        margin-top: 40px;
+    }
+
+    .work{
+        margin-top: 50px;
+    }
+}

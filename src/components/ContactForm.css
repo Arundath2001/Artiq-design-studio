@@ -107,3 +107,33 @@ button:hover{
         font-size: 12px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contactform_top1, 
+    .contactform_top2{
+      flex-direction: row;
+    }
+  
+    .contactform_btn{
+      justify-content: center;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .contactform label{
+        font-size: 13px;
+    }
+
+    form{
+        padding: 20px;
+        margin-top: 30px;
+    }
+
+    input::placeholder{
+        font-size: 12px;
+    }
+  
+    .contactform button{
+      border-radius: 16px;
+    }
+}

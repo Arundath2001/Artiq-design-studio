@@ -55,3 +55,23 @@
         border: 1px solid #FFFFFF;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .buttonnav_para.black{
+        font-size: 25px;
+    }
+
+    .buttonnav_line.black{
+        width: 30px;
+        border: 1px solid #000000;
+    }
+
+    .buttonnav_para.white{
+        font-size: 25px;
+    }
+
+    .buttonnav_line.white{
+        width: 30px;
+        border: 1px solid #FFFFFF;
+    }
+}

@@ -14,3 +14,14 @@
         margin-top: 10px;
     }
 }
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projects_text{
+        gap: 60px;
+    }
+
+    .projects{
+        margin-top: 10px;
+    }
+}

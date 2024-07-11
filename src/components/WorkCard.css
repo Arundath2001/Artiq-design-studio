@@ -15,3 +15,10 @@
         height: 160px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .workcard_img{
+        width: 270px;
+        height: 270px;
+    }
+}

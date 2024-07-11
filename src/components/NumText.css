@@ -20,3 +20,12 @@
         font-size: 10px;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .numtext_heading{
+        font-size: 40px;
+    }
+    .numtext_para{
+        font-size: 14px;
+    }
+}

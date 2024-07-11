@@ -11,3 +11,11 @@
         align-items: center;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .elipse{
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+}

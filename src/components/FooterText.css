@@ -50,3 +50,19 @@
         display: none;
     }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footertext_para{
+        font-size: 18px;
+        line-height: 10px;    
+    }
+
+    .footertext_para.bold{
+        font-size: 18px;
+    }
+
+    .footer_img{
+        width: 70%;
+    }
+
+}

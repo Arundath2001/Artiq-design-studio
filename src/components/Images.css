@@ -47,3 +47,29 @@
         display: none;
     }
 }
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .images{
+        gap: 40px;
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .images_1{
+        width: 170px;
+        height: 150px;
+    }
+    
+    .images_2{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .images_3{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        margin-top: -10px;
+    }
+}

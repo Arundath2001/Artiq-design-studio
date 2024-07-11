@@ -51,6 +51,16 @@
     }
 }
 
-@media (max-width: 1024px) { 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .heading{
+        font-size: 45px;
+    }
 
+    .paragraph{
+        font-size: 20px;
+    }
+
+    .topheading{
+        margin-top: 100px;
+    }
 }
