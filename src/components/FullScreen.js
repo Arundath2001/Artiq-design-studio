@@ -69,7 +69,7 @@ function FullScreen(props) {
                 </div>
 
                 <div className="fullscreen_icon">
-                    <Icons img1={whatsapp} img2={instagram} href1="tel:7356950499" href2="mailto:contactartiqdesign@gmail.com" />
+                    <Icons img1={whatsapp} img2={instagram} href1="https://wa.me/message/M64ZUFCUWCQNI1" href2="https://www.instagram.com/artiq__designs?igsh=ZDY3dDFkbnMxOHBy" />
                 </div>
             </div>                
             </div>
