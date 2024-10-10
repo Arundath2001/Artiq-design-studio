@@ -13,7 +13,7 @@
     .workcard_img{
         width: 140px;
         height: 160px;
-        object-fit: cover;
+        object-fit: contain;
     }
 }
 
